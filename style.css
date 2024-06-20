@@ -30,36 +30,74 @@ main{
     position: absolute;
     width: 60vw;
     height: 50vh;
-    border: solid blue 3px;
     left: 5vw;
     top: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .container *{
     margin: 0;
-    border: solid red 2px;
+    height: fit-content;
 }
 
-.container img{
-    width: 28px;
-    height: 28px;
+.container #logo{
+    width: 3rem;
+    height: 3rem;
 }
 
 h2{
-    font: bold 24px;
+    font: bold 3rem;
     color: #08C05E;
 }
 
-p, label{
-    font: bold 14px;
-}
-
-small{
-    font-size: 14px;
+legend{
+    font-size: 1rem;
     color: grey;
 }
 
-a{
-    color: #8257E5;
+.email {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
 }
 
+.input {
+    display: flex;
+    align-items: center;
+    height: 2.3rem;
+    width: 100%;
+    margin: .2rem 0 0;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    height: 100%;
+    border-left: 7px solid #08C05E;
+    border-right: 1px solid #08C05E;
+    outline: none;
+    color: #121214;
+    padding-left: 1rem;
+}
+
+button img{
+    width: 1.2rem;
+    background-color: #08C05E;
+    padding: 1rem;
+}
+
+button {
+    height: 100%;
+    padding: 0 .5rem;
+    background-color: #08C05E;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 10px 5px 5px black;
+}
+
+a{
+    color: grey;
+}

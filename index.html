@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
+    <title>Sign Up • Newsletter</title>
+
+    <link rel="shortcut icon" href="./assets/content/Jordan.png" type="image/x-icon">
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -11,15 +13,23 @@
     <main>
         <div class="content">
             <div class="container">
-                <img src="./assets/content/Jordan.png" alt="Logo">
+                <img id="logo" src="./assets/content/Jordan.png" alt="Logo">
 
-                <h2>drop in ??:??:??</h2>
-                <p>never miss out an oportunity again</p>
-                <small>daily tips and infos about the top jordans in the market</small>
+                <div>
+                    <h2 id="counter">drop in ??:??:??</h2>
+                    <br>
+                    <p>never miss out an oportunity again</p>
+                    <legend>daily tips and infos about the top jordans in the market</legend>
+                </div>
+                <div class="email">
+                    <label for="name">enter your best e-mail:</label>
+                    <div class="input">
+                        <input type="text" name="email" id="email" placeholder="youremail@example.com">
+                        <button type="submit"><img src="./assets/content/send.png" alt="Send"></button>
+                    </div>
 
-                <label for="name">Enter your best e-mail:</label>
-                <input type="text" name="email" id="email" placeholder="youremail@example.com">
-
+                </div>
+                
                 <a href="#">let me see first -></a>
             </div>
         </div>
