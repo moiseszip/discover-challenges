@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded",() => {
     
-    const dropDate = new Date('2024-07-08T09:00:00');
+    const dropDate = new Date('2025-07-08T09:00:00');
 
     function updateCounter(){
 
