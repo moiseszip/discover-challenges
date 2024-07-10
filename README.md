@@ -12,6 +12,7 @@
 
 ![image](https://github.com/moiseszip/prerelease-signup/assets/57779751/4980728c-20ba-45cb-a62f-dbae2089118d)
 
+<br>
 
 ## 🚀 Tech
 
